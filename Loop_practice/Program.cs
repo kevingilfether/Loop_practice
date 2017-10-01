@@ -10,6 +10,17 @@ namespace Loop_practice
     {
         static void Main(string[] args)
         {
+            // Let's do some loop practice
+
+            //while loops perform actions as long as the loop is true
+
+            //makes a loop that prints 1-10 on new lines
+            int x = 1;
+            while (x <= 10)
+            {
+                Console.WriteLine(x);
+                x++;
+            }
         }
     }
 }

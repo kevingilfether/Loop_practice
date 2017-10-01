@@ -25,61 +25,69 @@ namespace Loop_practice
             //makes a while loop where each digit from 1-10 is printed on each line
             //with an indent corresponding to position
 
-            int x = 1;
-            string numTabs = "\t";
-            while(x <= 10)
-            {
-                if (x == 1)
-                {
-                    Console.WriteLine("\t" + x);
-                }
+            //int x = 1;
+            //string numTabs = "\t";
+            //while(x <= 10)
+            //{
+            //    if (x == 1)
+            //    {
+            //        Console.WriteLine("\t" + x);
+            //    }
 
-                else if (x == 2)
-                {
-                    Console.WriteLine("\t\t" + x);
-                }
+            //    else if (x == 2)
+            //    {
+            //        Console.WriteLine("\t\t" + x);
+            //    }
 
-                else if (x == 3)
-                {
-                    Console.WriteLine("\t\t\t" + x);
-                }
+            //    else if (x == 3)
+            //    {
+            //        Console.WriteLine("\t\t\t" + x);
+            //    }
 
-                else if (x == 4)
-                {
-                    Console.WriteLine("\t\t\t\t" + x);
-                }
+            //    else if (x == 4)
+            //    {
+            //        Console.WriteLine("\t\t\t\t" + x);
+            //    }
 
-                else if (x == 5)
-                {
-                    Console.WriteLine("\t\t\t\t\t" + x);
-                }
+            //    else if (x == 5)
+            //    {
+            //        Console.WriteLine("\t\t\t\t\t" + x);
+            //    }
 
-                else if (x == 6)
-                {
-                    Console.WriteLine("\t\t\t\t\t\t" + x);
-                }
+            //    else if (x == 6)
+            //    {
+            //        Console.WriteLine("\t\t\t\t\t\t" + x);
+            //    }
 
-                else if (x == 7)
-                {
-                    Console.WriteLine("\t\t\t\t\t\t\t" + x);
-                }
+            //    else if (x == 7)
+            //    {
+            //        Console.WriteLine("\t\t\t\t\t\t\t" + x);
+            //    }
 
-                else if (x == 8)
-                {
-                    Console.WriteLine("\t\t\t\t\t\t\t\t" + x);
-                }
+            //    else if (x == 8)
+            //    {
+            //        Console.WriteLine("\t\t\t\t\t\t\t\t" + x);
+            //    }
 
-                else if (x == 9)
-                {
-                    Console.WriteLine("\t\t\t\t\t\t\t\t\t" + x);
-                }
+            //    else if (x == 9)
+            //    {
+            //        Console.WriteLine("\t\t\t\t\t\t\t\t\t" + x);
+            //    }
 
-                else if (x == 10)
-                {
-                    Console.WriteLine("\t\t\t\t\t\t\t\t\t\t" + x);
-                }
-                x++;
-            }
+            //    else if (x == 10)
+            //    {
+            //        Console.WriteLine("\t\t\t\t\t\t\t\t\t\t" + x);
+            //    }
+            //    x++;
+            //}
+
+            //Writes out 1 - 10 with a for loop
+            //for (int x =1; x <= 10; x ++)
+            //{
+            //    Console.WriteLine(x);
+            //}
+
+
         }
     }
 }

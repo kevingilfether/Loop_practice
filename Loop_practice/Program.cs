@@ -88,6 +88,20 @@ namespace Loop_practice
             //}
 
 
+            // Writes out five lines of 10 *
+
+            for (int row = 0; row < 5; row ++)
+            {
+                for (int column = 0; column < 10; column ++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
+            }
+
+
+
         }
     }
 }

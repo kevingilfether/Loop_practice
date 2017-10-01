@@ -90,16 +90,43 @@ namespace Loop_practice
 
             // Writes out five lines of 10 *
 
-            for (int row = 0; row < 5; row ++)
+            //for (int row = 0; row < 5; row ++)
+            //{
+            //    for (int column = 0; column < 10; column ++)
+            //    {
+            //        Console.Write("*");
+            //    }
+
+            //    Console.WriteLine();
+            //}
+
+            // Writes out one *, then two, then three, etc.
+            // Each on own lines.
+
+            //for (int row = 0; row < 10; row++)
+            //{
+            //    for (int column = 0; column < row + 1; column ++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            // Makes pyramid of *
+
+            for (int row = 0; row < 5; row++) 
             {
-                for (int column = 0; column < 10; column ++)
+                for (int space = 0; space < 5 - row - 1; space++)
+                {
+                    Console.Write(" ");
+                }
+
+                for (int star = 0; star < (row * 2) + 1; star++)
                 {
                     Console.Write("*");
                 }
-
                 Console.WriteLine();
             }
-
 
 
         }

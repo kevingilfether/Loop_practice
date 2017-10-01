@@ -114,20 +114,37 @@ namespace Loop_practice
 
             // Makes pyramid of *
 
-            for (int row = 0; row < 5; row++) 
+            //for (int row = 0; row < 5; row++) 
+            //{
+            //    for (int space = 0; space < 5 - row - 1; space++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (int star = 0; star < (row * 2) + 1; star++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            //FizzBuzz -- Prints out every number, 1-100 on a line,
+            // except multiples of 3 get "Fizz"
+            // multiples of 5 get "Buzz"
+            // and multiples of 3 and 5 gett "FizzBuzz"
+
+            for (int num = 1; num <= 100; num = num +1)
             {
-                for (int space = 0; space < 5 - row - 1; space++)
-                {
-                    Console.Write(" ");
-                }
-
-                for (int star = 0; star < (row * 2) + 1; star++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
+                if (num % 3 == 0 && num % 5 == 0)
+                    Console.WriteLine("FizzBuzz!");
+                else if (num % 3 == 0)
+                    Console.WriteLine("Fizz");
+                else if (num % 5 == 0)
+                    Console.WriteLine("Buzz");
+                else
+                    Console.WriteLine(num);
             }
-
 
         }
     }
